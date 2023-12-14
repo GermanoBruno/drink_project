@@ -1,0 +1,43 @@
+Tabelas:
+    Receitas
+        drink_id
+        tipo de receita
+        nome
+        receita
+        ingredientes
+        source
+
+    Drinks
+        drink_id
+        nome
+        ingredientes
+        caracteristicas
+        caracteristicas_source 
+            ditada por espceialista         prio 1
+            ditada pelos users              prio 2
+            calculada pelos ingredientes    prio 3
+        valor??
+            calculada por valor de ingrediente * qtd
+        nota
+
+    ingredientes    
+        ingrediente_id
+        nome
+        nome traduzido
+        caracteristica_traducao
+            manual                          conf 1
+            automatica (codigo)             conf 2
+        caracteristicas
+        valor
+
+    Users
+        dispositivo
+        ingredientes disponiveis
+
+caracteristicas de drink:
+    inferir pelos ingredientes
+
+    
+    Alexa/app
+        Poder cadastrar e deletar ingredientes da lista de disponiveis
+        poder pegar drink aleatorio pelas caracteristicas
